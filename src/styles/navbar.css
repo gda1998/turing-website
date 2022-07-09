@@ -1,0 +1,32 @@
+.navbar-background{
+    padding: 13rem 0;
+    width: 100vw;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.nav-item * {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#videoBackground {
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
