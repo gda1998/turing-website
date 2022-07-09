@@ -3,7 +3,7 @@ import { Navbar } from '../components/Navbar';
 export const Home = () => {
     return (
         <>
-            <Navbar urlVideo="./assets/videos/index-navbar-background.mp4" />
+            <Navbar urlVideo="../../assets/videos/index-navbar-background.mp4" />
             <div className='container-fluid bg-white'>
                 <div className="container">
                     <h2>What we do</h2>
