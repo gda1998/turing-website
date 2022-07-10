@@ -1,0 +1,21 @@
+.figure {
+    position: relative;
+}
+
+.figure-caption {
+    position: absolute;
+    z-index: 1000;
+    top: 92%;
+    right: 1%;
+    width: 85%;
+    padding: 1rem;
+}
+
+.figure-caption:hover {
+    background-color: blue !important;
+    color: #FFF !important;
+}
+
+.swiper-wrapper {
+    margin-bottom: 3rem;
+}

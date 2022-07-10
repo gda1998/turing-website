@@ -1,17 +1,37 @@
-import { Navbar } from '../components/Navbar';
+import { useLang } from '../hooks/useLang';
+import { OutWork } from '../components/Home/OutWork';
+import VideoBackground from '../components/VideoBackground';
+import '../styles/home.css';
 
 export const Home = () => {
+    const [ t ] = useLang();
+
     return (
         <>
-            <Navbar urlVideo="assets/videos/index-navbar-background.mp4" />
-            <div className='container-fluid bg-white'>
+            <header className='navbar-background text-white'>
+                <VideoBackground urlVideo="assets/videos/index-navbar-background.mp4" title={ t('home.welcome') } subtitle={ t('home.message_header') } />
+            </header>
+            <div className='py-5 bg-white'>
                 <div className="container">
-                    <h2>What we do</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores voluptas excepturi sit vero ea eius, nulla ipsum adipisci, mollitia quibusdam obcaecati eaque eos culpa quis inventore tempora molestiae praesentium magnam!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores voluptas excepturi sit vero ea eius, nulla ipsum adipisci, mollitia quibusdam obcaecati eaque eos culpa quis inventore tempora molestiae praesentium magnam!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores voluptas excepturi sit vero ea eius, nulla ipsum adipisci, mollitia quibusdam obcaecati eaque eos culpa quis inventore tempora molestiae praesentium magnam!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores voluptas excepturi sit vero ea eius, nulla ipsum adipisci, mollitia quibusdam obcaecati eaque eos culpa quis inventore tempora molestiae praesentium magnam!</p>
-
+                    <div className='header-page my-3'>
+                        <h3 className='text-primary text-uppercase'>{ t('home.what_we_do') }</h3>
+                        <h1>{ t('home.what_is_turing') }</h1>
+                        <button className='btn btn-lg my-3 btn-outline-primary'>{ t('more_info') }</button>
+                    </div>
+                    <OutWork />
+                </div>{/* /.container */}
+            </div>{/* /.py-5 bg-white */}
+            <div className="py-5 bg-light">
+                <div className="container">
+                    <h4 className='text-primary text-uppercase'>{ t('home.technologies_we_use') }</h4>
+                    <div className="row py-5">
+                        <div className="col-md-2">Hello World</div>
+                        <div className="col-md-2">Hello World</div>
+                        <div className="col-md-2">Hello World</div>
+                        <div className="col-md-2">Hello World</div>
+                        <div className="col-md-2">Hello World</div>
+                        <div className="col-md-2">Hello World</div>
+                    </div>
                 </div>
             </div>
         </>

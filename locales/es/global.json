@@ -1,0 +1,37 @@
+{
+    "titles": {
+        "home": "Inicio",
+        "us": "Nosotros",
+        "services": "Servicios",
+        "tableu": "Tableu",
+        "contact": "Contacto",
+        "lets_talk": "Charlemos",
+        "search": "Buscar"
+    },
+    "language": {
+        "language": "Idioma",
+        "english": "Inglés",
+        "spanish": "Español"
+    },
+    "home": {
+        "welcome": "Bienvenido",
+        "message_header": "Hacemos los datos fáciles de usar.",
+        "what_we_do": "¿Qué hacemos?",
+        "what_is_turing": "Turing-IA es una firma de consultoría global que ayuda a las personas y organizaciones a soñar en grande, moverse más rápido y construir mejores mañanas para todos.",
+        "our_work": "Nuestro Trabajo",
+        "technologies_we_use": "Tecnologías que utilizamos",
+        "partners_msg": "Tenemos asociaciones sólidas con las principales empresas tecnológicas del mundo.",
+        "who_we_are": "¿Quienes somos?",
+        "we_are": "Somos una empresa Consultora de Big Data en México, desde hace 13 años proporcionamos servicios en Business Analytics mediante Knowledge Discovery in Database (KDD).",
+        "we_contribute": "Contribuimos con su empresa para mejorar la toma de decisiones a través de sus datos.",
+        "get_to_know_us": "Conócenos",
+        "what_we_re_thinking": "¿Qué es lo que pensamos?",
+        "our_latest_news": "Nuestras últimas noticias, documentos técnicos, vídeos y artículos de la compañia.",
+        "easy_way": "La manera ideal para manejar tus datos.",
+        "we_offer_you": "¿Qué es lo que ofrecemos?",
+        "explore_future": "Explora el futuro",
+        "unleash_creativity": "Da rienda suelta a la creatividad y la innovación con Slalom Element."
+    },
+    "more_info": "Más información",
+    "your_future_start_today": "Tu futuro comienza hoy. ¿Estás listo?"
+}

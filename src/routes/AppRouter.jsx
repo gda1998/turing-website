@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Navbar } from '../components/Navbar';
 import { Error404 } from '../errors/Error404';
 import { Contact } from '../pages/Contact';
 import { Home } from '../pages/Home';
@@ -9,6 +10,7 @@ import { Us } from '../pages/Us';
 export const AppRouter = () => {
     return (
         <BrowserRouter>
+            <Navbar />
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="/us" element={ <Us /> } />
